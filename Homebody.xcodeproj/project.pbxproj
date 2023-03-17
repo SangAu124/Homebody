@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EF06EDB629BC456000D45370 /* HomebodyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06EDB529BC456000D45370 /* HomebodyApp.swift */; };
-		EF06EDB829BC456000D45370 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06EDB729BC456000D45370 /* ContentView.swift */; };
 		EF06EDBA29BC456000D45370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF06EDB929BC456000D45370 /* Assets.xcassets */; };
 		EF06EDBD29BC456000D45370 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF06EDBC29BC456000D45370 /* Preview Assets.xcassets */; };
 		EF06EDC729BC456000D45370 /* HomebodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06EDC629BC456000D45370 /* HomebodyTests.swift */; };
 		EF06EDD129BC456000D45370 /* HomebodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06EDD029BC456000D45370 /* HomebodyUITests.swift */; };
 		EF06EDD329BC456000D45370 /* HomebodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06EDD229BC456000D45370 /* HomebodyUITestsLaunchTests.swift */; };
+		EF92E97B29BC57B90054899B /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF92E97A29BC57B90054899B /* ColorManager.swift */; };
+		EFC55E3A29C09B4B0046FCA5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E3929C09B4B0046FCA5 /* MainView.swift */; };
+		EFC55E3D29C150040046FCA5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E3C29C150040046FCA5 /* Home.swift */; };
+		EFC55E3F29C1506E0046FCA5 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E3E29C1506E0046FCA5 /* CustomDatePicker.swift */; };
+		EFC55E4229C154230046FCA5 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E4129C154230046FCA5 /* DateValue.swift */; };
+		EFC55E4429C15DF80046FCA5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E4329C15DF80046FCA5 /* Task.swift */; };
+		EFC55E4829C1FCA90046FCA5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E4729C1FCA90046FCA5 /* WelcomeView.swift */; };
+		EFC55E4D29C1FD670046FCA5 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E4C29C1FD670046FCA5 /* Intro.swift */; };
+		EFC55E5029C1FFA50046FCA5 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC55E4F29C1FFA50046FCA5 /* IntroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		EF06EDB229BC456000D45370 /* Homebody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homebody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF06EDB529BC456000D45370 /* HomebodyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebodyApp.swift; sourceTree = "<group>"; };
-		EF06EDB729BC456000D45370 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF06EDB929BC456000D45370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF06EDBC29BC456000D45370 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF06EDC229BC456000D45370 /* HomebodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomebodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		EF06EDCC29BC456000D45370 /* HomebodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomebodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF06EDD029BC456000D45370 /* HomebodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebodyUITests.swift; sourceTree = "<group>"; };
 		EF06EDD229BC456000D45370 /* HomebodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomebodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF92E97A29BC57B90054899B /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		EFC55E3929C09B4B0046FCA5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EFC55E3C29C150040046FCA5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EFC55E3E29C1506E0046FCA5 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		EFC55E4129C154230046FCA5 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		EFC55E4329C15DF80046FCA5 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EFC55E4729C1FCA90046FCA5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		EFC55E4C29C1FD670046FCA5 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		EFC55E4F29C1FFA50046FCA5 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,9 @@
 		EF06EDB429BC456000D45370 /* Homebody */ = {
 			isa = PBXGroup;
 			children = (
+				EF92E97829BC57AD0054899B /* Util */,
+				EF92E97229BC486A0054899B /* Scenes */,
 				EF06EDB529BC456000D45370 /* HomebodyApp.swift */,
-				EF06EDB729BC456000D45370 /* ContentView.swift */,
 				EF06EDB929BC456000D45370 /* Assets.xcassets */,
 				EF06EDBB29BC456000D45370 /* Preview Content */,
 			);
@@ -125,6 +142,101 @@
 				EF06EDD229BC456000D45370 /* HomebodyUITestsLaunchTests.swift */,
 			);
 			path = HomebodyUITests;
+			sourceTree = "<group>";
+		};
+		EF92E97229BC486A0054899B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4529C1FC970046FCA5 /* Onboarding */,
+				EFC55E3729C09B300046FCA5 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF92E97829BC57AD0054899B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EF92E97929BC57B30054899B /* Color */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EF92E97929BC57B30054899B /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				EF92E97A29BC57B90054899B /* ColorManager.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		EFC55E3729C09B300046FCA5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4029C154140046FCA5 /* Model */,
+				EFC55E3829C09B400046FCA5 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EFC55E3829C09B400046FCA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E3B29C14FEB0046FCA5 /* Components */,
+				EFC55E3929C09B4B0046FCA5 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFC55E3B29C14FEB0046FCA5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E3C29C150040046FCA5 /* Home.swift */,
+				EFC55E3E29C1506E0046FCA5 /* CustomDatePicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EFC55E4029C154140046FCA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4129C154230046FCA5 /* DateValue.swift */,
+				EFC55E4329C15DF80046FCA5 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFC55E4529C1FC970046FCA5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4929C1FD3E0046FCA5 /* Model */,
+				EFC55E4629C1FC9D0046FCA5 /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		EFC55E4629C1FC9D0046FCA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4E29C1FF890046FCA5 /* Components */,
+				EFC55E4729C1FCA90046FCA5 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFC55E4929C1FD3E0046FCA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4C29C1FD670046FCA5 /* Intro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFC55E4E29C1FF890046FCA5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EFC55E4F29C1FFA50046FCA5 /* IntroView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +369,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF06EDB829BC456000D45370 /* ContentView.swift in Sources */,
+				EFC55E4429C15DF80046FCA5 /* Task.swift in Sources */,
+				EF92E97B29BC57B90054899B /* ColorManager.swift in Sources */,
+				EFC55E4D29C1FD670046FCA5 /* Intro.swift in Sources */,
+				EFC55E3A29C09B4B0046FCA5 /* MainView.swift in Sources */,
+				EFC55E4829C1FCA90046FCA5 /* WelcomeView.swift in Sources */,
+				EFC55E3F29C1506E0046FCA5 /* CustomDatePicker.swift in Sources */,
+				EFC55E3D29C150040046FCA5 /* Home.swift in Sources */,
+				EFC55E5029C1FFA50046FCA5 /* IntroView.swift in Sources */,
+				EFC55E4229C154230046FCA5 /* DateValue.swift in Sources */,
 				EF06EDB629BC456000D45370 /* HomebodyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +540,7 @@
 				DEVELOPMENT_TEAM = MA35V5PR3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "홈바디";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +570,7 @@
 				DEVELOPMENT_TEAM = MA35V5PR3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "홈바디";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
