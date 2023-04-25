@@ -19,6 +19,7 @@ class WeatherAPI {
     
     func fetchWeatherDataWithCurrentLocation() {
         locationService.requestLocation { coordinate in
+            // 여기서 아래 코드가 실행되지 않고 MainIntent 31로 이동 Why?
             self.fetchWeatherData(coordinate: coordinate)
         }
         

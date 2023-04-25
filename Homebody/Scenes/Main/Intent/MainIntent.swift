@@ -5,7 +5,7 @@
 //  Created by 김상금 on 2023/03/17.
 //
 
-import Combine
+import Foundation
 
 final class MainIntent: MainIntentProtocol {
     private weak var model: WeatherModelActionProtocol?
@@ -30,27 +30,23 @@ final class MainIntent: MainIntentProtocol {
         
         let weather = weatherAPI.getWeatherModel()!
         let temp = weather.temp - 273.15
-        if temp >= 17 && temp <= 21 {
-            
-            model?.setTodayState(state: .perfect)
-            
-        } else if temp >= 15.6 && temp <= 25.0 {
-            
-            model?.setTodayState(state: .good)
-            
-        } else if temp >= 10.0 && temp <= 27.6 {
-            
-            model?.setTodayState(state: .soso)
-            
-        } else {
-            
-            model?.setTodayState(state: .bad)
-            
-        }
         
+        model?.setTodayState(state: decideDaystate(temp: temp))
         model?.updateTodayWeather(weather: weather)
-        print(weather.state.rawValue)
-        
     }
     
+}
+
+extension MainIntent {
+    private func decideDaystate(temp: Double) -> WeatherState {
+        if temp >= 17 && temp <= 21 {
+            return .perfect
+        } else if temp >= 15.6 && temp <= 25.0 {
+            return .good
+        } else if temp >= 10.0 && temp <= 27.6 {
+            return .soso
+        } else {
+            return .bad
+        }
+    }
 }

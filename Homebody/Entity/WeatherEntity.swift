@@ -13,7 +13,7 @@ struct WeatherEntity: Equatable {
     var humi: Int = 0
     var weather: String = ""
     var pres: Int = 0
-    var state: WeatherState = .bad
+    var state: WeatherState = .notfound
 }
 
 enum WeatherState: String {
@@ -21,4 +21,5 @@ enum WeatherState: String {
     case soso = "굳이 나갈 필요는 없어요😌"
     case good = "나쁘지 않은 오늘 걸어봐요!😊"
     case perfect = "오늘은 산책하는 날!🥳"
+    case notfound = "🚫"
 }
